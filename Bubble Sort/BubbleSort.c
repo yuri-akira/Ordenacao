@@ -1,12 +1,12 @@
 void bubbleSort(int vetor[],int tamVetor)
 {   
     int aux;
-     for(int x = 0; x < tamVetor; x++)
-        for(int y = x + 1; y < tamVetor; y++)
-            if(vetor[x] > vetor[y])
+     for(int i = 0; i < tamVetor; i++)
+        for(int j; j< tamVetor - 1 - i; j++)
+            if(vetor[j] > vetor[j + 1])
             {
-                aux = vetor[x];
-                vetor[x] = vetor[y];
-                vetor[y] = aux;
+                aux = vetor[j]
+                vetor[j] = vetor[j + 1];
+                vetor[j + 1] = aux;
             }
 }

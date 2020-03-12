@@ -11,5 +11,6 @@ void insertionSort(int vetor[],int vetorTam)
             vetor[j + 1] = vetor[j];
             j--;
         }
+        vetor[j + 1] = atual;
     }
 }

@@ -6,7 +6,7 @@ void insertionSort(int vetor[],int vetorTam)
     {
         atual = vetor[i];
         j = i - 1;
-        while(j >= 0 && atual < j)
+        while((j >= 0) && (atual < vetor[j]))
         {
             vetor[j + 1] = vetor[j];
             j--;

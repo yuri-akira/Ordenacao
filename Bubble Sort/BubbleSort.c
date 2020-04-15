@@ -1,4 +1,4 @@
-void bubbleSort(int vetor[],int tamVetor)
+void bubbleSort(int *vetor,int tamVetor)
 {   
     int aux;
      for(int i = 0; i < tamVetor; i++)

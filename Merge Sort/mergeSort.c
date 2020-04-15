@@ -1,4 +1,4 @@
-void merge(int vetor[],int indiceE, int meio, int indiceD)
+void merge(int *vetor,int indiceE, int meio, int indiceD)
 {   
     int tam1 = meio - indiceE + 1;
     int tam2 = indiceD - meio; 

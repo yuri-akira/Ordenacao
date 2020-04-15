@@ -44,7 +44,7 @@ void merge(int *vetor,int indiceE, int meio, int indiceD)
     }
 }
 
-void mergeSort(int vetor[], int indiceE, int indiceD)
+void mergeSort(int *vetor, int indiceE, int indiceD)
 {
     if(indiceE < indiceD)
     {

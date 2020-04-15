@@ -1,4 +1,4 @@
-void SelectionSort(int vetor[],int tam)
+void SelectionSort(int *vetor,int tam)
 {   
     int pMenorValor, aux, i, j;
 

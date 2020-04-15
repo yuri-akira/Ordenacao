@@ -1,4 +1,4 @@
-void insertionSort(int vetor[],int vetorTam)
+void insertionSort(int *vetor,int vetorTam)
 {   
     int atual,j;
 

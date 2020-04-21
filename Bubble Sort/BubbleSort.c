@@ -1,12 +1,12 @@
-void bubbleSort(int *vetor,int tamVetor)
-{   
-    int aux;
-     for(int i = 0; i < tamVetor; i++)
-        for(int j; j< tamVetor - 1 - i; j++)
-            if(vetor[j] > vetor[j + 1])
+void bubble_sort(int *vetor, int TAM)
+{
+    int x, y, aux;
+    for(x = 0; x < TAM; x++)
+        for(y = x + 1; y < TAM; y++)
+            if(vetor[x] > vetor[y])
             {
-                aux = vetor[j];
-                vetor[j] = vetor[j + 1];
-                vetor[j + 1] = aux;
+                aux = vetor[x];
+                vetor[x] = vetor[y];
+                vetor[y] = aux;
             }
 }

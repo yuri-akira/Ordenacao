@@ -11,7 +11,7 @@ Dentro da ordenação interna, existem os **Métodos simples** e os **Métodos e
 Os métodos simples são adequados para pequenos vetores. Possuem complexidade C(n) = O(n²), ou seja, requerem O(n²) comparações.
 
 Algoritmos de método simples:
-- [Bubble Sort](https://github.com/yuri-akira/Ordenacao/blob/master/Bubble%20Sort/BubbleSort.c)
+- [Bubble Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Bubble%20Sort)
 - [Insertion Sort](https://github.com/yuri-akira/Ordenacao/blob/master/Insertion%20Sort/insertionSort.c)
 - [Selection Sort](https://github.com/yuri-akira/Ordenacao/blob/master/Selection%20Sort/selectionSort.c)
 

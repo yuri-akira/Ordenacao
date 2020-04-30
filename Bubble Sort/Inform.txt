@@ -1,7 +1,0 @@
-BUBBLE SORT/ORDENAÇÃO POR BOLHA
-
-//Compara os elementos adjacentes trocando-os de posição no array ( caso array[n] > array[n + 1] ) até estarem ordenados.
- 
-/* Melhor caso: O(N)
-   Pior caso: O(n²)
-   Não recomendado para grandes conjuntos de dados */

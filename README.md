@@ -13,7 +13,7 @@ Os métodos simples são adequados para **pequenos vetores** . Possuem complexid
 Algoritmos de método simples:
 - [Bubble Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Bubble%20Sort)
 - [Insertion Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Insertion%20Sort)
-- [Selection Sort](https://github.com/yuri-akira/Ordenacao/blob/master/Selection%20Sort/selectionSort.c)
+- [Selection Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Selection%20Sort)
 
 ## Métodos Eficientes
 Os métodos eficientes requerem um número menor de comparações. São projetados para trabalhar com uma quantidade maior de dados e possuem complexidade C(n) = O(n log n).

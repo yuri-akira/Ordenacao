@@ -19,7 +19,7 @@ Algoritmos de método simples:
 Os métodos eficientes requerem um número menor de comparações. São projetados para trabalhar com uma quantidade maior de dados e possuem complexidade C(n) = O(n log n).
 
 Algoritmos de método eficiente:
-- [Quick Sort]()
+- [Quick Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Quick%20Sort)
 - [Merge Sort]()
 - [Couting Sort]()
 - [Heap Sort]()

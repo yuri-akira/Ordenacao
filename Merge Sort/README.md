@@ -6,7 +6,6 @@
 
 # Implementação em C
 
-**Necessita da biblioteca math.h além das padrões, para que a função floor funcione**
 ```
 void mergeSort(int *vetor, int comeco, int fim)
 {
@@ -18,6 +17,11 @@ void mergeSort(int *vetor, int comeco, int fim)
      }
  }
 
+```
+**Necessita-se da biblioteca math.h para que possamos utilizar a função floor **
+No entanto, há outras formas para se calcular o meio, uma alternativa sem usar a função floor seria:
+```
+     int meio = (fim + comeco)/2;
 ```
 > Como a função mergeSort chama a função merge, a função merge deve ser declarada antes da mergeSort.No entanto, apenas para melhor entendimento a ordem foi alterada.
 ```

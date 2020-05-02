@@ -1,31 +1,34 @@
-void quick_sort(int *vetor, int inicio, int fim)
+int particiona(int *V, int inicio, int final)
 {
-    int pivo, esq, dir, meio, aux;
-
+    int esq, dir, pivo, aux;
     esq = inicio;
-    dir = fim;
-    meio =  (int) ((esq + dir) / 2);
-    pivo = vetor[meio];
-
-    while(dir > esq)
+    dir = final;
+    pivo = V[inicio];
+    while(esq < dir)
     {
-        while(vetor[esq] < pivo)
-            esq = esq + 1;
-
-        while(vetor[dir] > pivo)
-            dir = dir - 1;
-        
-        if(esq <= dir)
+        while (V[esq] <= pivo)
+            esq++;
+        while (V[dir] > pivo)
+            dir--;
+        if (esq < dir)
         {
-            aux = vetor[esq];
-            vetor[esq] = vetor[dir];
-            vetor[dir] = aux;
-            esq = esq + 1;
-            dir = dir - 1;
+            aux = V[esq];
+            V[esq] = V[dir];
+            V[dir] = aux;
         }
     }
-    if(inicio < dir)
-        quick_sort(vetor, inicio, dir);   
-    if(esq < fim)
-         quick_sort(vetor, esq, fim);
+    V[inicio] = V[dir];
+    V[dir] = pivo;
+    return dir;
+}
+
+void quickSort(int *V, int inicio, int final)
+{
+    int pivo;
+    if(final > inicio)
+    {
+        pivo = particiona(V, inicio, final);
+        quickSort(V, inicio, pivo - 1);
+        quickSort(V, pivo + 1, final);
+    }
 }

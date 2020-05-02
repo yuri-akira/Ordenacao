@@ -17,7 +17,10 @@ void mergeSort(int *vetor, int comeco, int fim)
          merge(vetor, comeco, meio, fim); //combina as metades de forma ordenada
      }
  }
- 
+
+```
+> Como a função mergeSort chama a função merge, a função merge deve ser declarada antes da mergeSort.No entanto, apenas para melhor entendimento a ordem foi alterada.
+```
 void merge(int *vetor, int comeco, int meio, int fim)
 {
     int com1 = comeco, com2 = meio+1, comAux = 0, tam = fim-comeco+1;

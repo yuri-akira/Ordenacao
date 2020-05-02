@@ -5,11 +5,13 @@
 ![](https://upload.wikimedia.org/wikipedia/commons/e/e6/Merge_sort_algorithm_diagram.svg)
 
 # Implementação em C
+
+**Necessita da biblioteca math.h além das padrões, para que a função floor funcione**
 ```
 void mergeSort(int *vetor, int comeco, int fim)
 {
      if (comeco < fim) {
-         int meio = (fim+comeco)/2; 
+         int meio = floor((fim+comeco)/2); //função floor arredonda para baixo
          mergeSort(vetor, comeco, meio); //chama função para primeira metade
          mergeSort(vetor, meio+1, fim); //chama função para segunda metade
          merge(vetor, comeco, meio, fim); //combina as metades de forma ordenada

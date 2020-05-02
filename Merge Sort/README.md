@@ -58,7 +58,7 @@ void merge(int *vetor, int comeco, int meio, int fim)
 ### Chamando Merge Sort na funçao principal
 É importante ressaltar que diferente das outras formas de ordenação, o Merge Sort exige três parâmetro: o vetor, o inicio do vetor (0) e a posição final do vetor ( TAM - 1 ).
 ```
-    main()
+    void main()
     {
       /* declaração de variaveis e leitura de dados */
        mergeSort(vetor,0,TAM - 1);

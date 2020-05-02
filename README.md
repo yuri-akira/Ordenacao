@@ -19,7 +19,7 @@ Algoritmos de método simples:
 Os métodos eficientes requerem um número menor de comparações. São projetados para trabalhar com uma quantidade maior de dados e possuem complexidade C(n) = O(n log n).
 
 Algoritmos de método eficiente:
-- [Merge Sort]()
+- [Merge Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Merge%20Sort)
 - [Quick Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Quick%20Sort)
 - [Couting Sort]()
 - [Heap Sort]()
@@ -45,7 +45,7 @@ Note que é estável pois 8[b] antecede 8[c], assim como em suas posições orig
  
  - [Bubble Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Bubble%20Sort)
  - [Insertion Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Insertion%20Sort)
- - [Merge Sort]()
+ - [Merge Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Merge%20Sort)
  - [Couting Sort]()
  
  ### Algoritmos não estáveis:

@@ -1,4 +1,4 @@
-void merge(int vetor[], int comeco, int meio, int fim)
+void merge(int *vetor, int comeco, int meio, int fim)
 {
     int com1 = comeco, com2 = meio+1, comAux = 0, tam = fim-comeco+1;
     int *vetAux;

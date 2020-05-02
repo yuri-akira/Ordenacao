@@ -18,7 +18,8 @@ void mergeSort(int *vetor, int comeco, int fim)
  }
 
 ```
-**Necessita-se da biblioteca math.h para que possamos utilizar a função floor **
+**Necessita-se da biblioteca math.h para que possamos utilizar a função floor**
+
 No entanto, há outras formas para se calcular o meio, uma alternativa sem usar a função floor seria:
 ```
      int meio = (fim + comeco)/2;

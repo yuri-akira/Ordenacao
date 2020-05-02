@@ -21,7 +21,7 @@ void bubble_sort(int *vetor, int TAM)
 ```
 Neste caso, o menor valor flutua ao ínicio a cada passagem. Iniciando a comparação sempre na posição x + 1, para que assim, não haja a necessidade de verificar o vetor inteiro a cada análise.
 
-## Complexidade
+## Desempenho
 - **Melhor caso:** *O(n)*
 - **Caso médio:** *O(n²)*
 - **Pior caso:** *O(n²)*

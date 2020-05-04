@@ -32,7 +32,7 @@ void SelectionSort(int *vetor,int tam)
 ```
 ## Complexidade
 - **Melhor caso:** *O(n²)*
-- **Caso médio:** *O(n²)*
 - **Pior caso:** *O(n²)*
+- **Estável**
 
 >Note que não existe um melhor caso mesmo que o vetor esteja ordenado, já que será executado os dois laços do algoritmo para que ocorra a comparação de um elemento com os outros, visando encontrar o menor.

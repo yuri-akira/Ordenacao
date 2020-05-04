@@ -4,7 +4,7 @@ Um elemento do vetor é escolhido como **pivô** e a partir da função **partic
 
 ![](https://upload.wikimedia.org/wikipedia/commons/6/6a/Sorting_quicksort_anim.gif)
 
-> A barra vermelha é o pivô. 
+> A barra vermelha representa o pivô. 
 
 ## Quick Sort vs Merge Sort
 Quick sort funciona localmente e seu tempo de execução no **pior caso** é tão ruim quanto o dos algoritmos de ordenação de [método simples](https://github.com/yuri-akira/Ordenacao#métodos-simples) ( O(n²) ). No entanto, seu tempo de execução médio é tão bom quanto o [Merge Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Merge%20Sort) (O(n log n)).

@@ -1,6 +1,6 @@
 # Merge Sort
 
-É um algoritmo **recursivo** de ordenação que utiliza como ideia o método **dividir para conquistar** ,dividindo de forma recursiva o conjunto de dados até que cada subconjunto possua apenas 1 elemento, para que depois combine os subconjuntos em pares de forma a obter um subconjunto maior e ordenado até que exista apenas um conjunto. 
+É um algoritmo **recursivo** de ordenação que utiliza duas funções em torno do método **dividir para conquistar** ,dividindo de forma recursiva o conjunto de dados até que cada subconjunto possua apenas 1 elemento, para que depois combine os subconjuntos em pares de forma a obter um subconjunto maior e ordenado até que exista apenas um conjunto. 
 
 ![](https://upload.wikimedia.org/wikipedia/commons/e/e6/Merge_sort_algorithm_diagram.svg)
 

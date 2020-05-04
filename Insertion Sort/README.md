@@ -25,5 +25,5 @@ void insertionSort(int *vetor,int vetorTam)
 ```
 ## Desempenho
 - **Melhor caso:** *O(n)*
-- **Caso médio:** *O(n²)*
 - **Pior caso:** *O(n²)*
+- **Estável**

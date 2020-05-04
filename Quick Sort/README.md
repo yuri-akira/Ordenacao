@@ -44,4 +44,4 @@ void quickSort(int *V, int inicio, int final)
 ## Desempenho
 - **Melhor caso:** *O(n log n)*
 - **Pior caso:** *O(n²)*
-- **Estável**
+- **Não estável**

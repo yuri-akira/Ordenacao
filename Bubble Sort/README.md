@@ -23,5 +23,5 @@ Neste caso, o menor valor flutua ao ínicio a cada passagem. Iniciando a compara
 
 ## Desempenho
 - **Melhor caso:** *O(n)*
-- **Caso médio:** *O(n²)*
 - **Pior caso:** *O(n²)*
+- **Estável**

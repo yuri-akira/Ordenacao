@@ -76,6 +76,5 @@ void merge(int *vetor, int comeco, int meio, int fim)
 ```
 ## Desempenho
 - **Melhor caso:** *O(n log n)*
-- **Caso médio:** *O(n log n)*
 - **Pior caso:** *O(n log n)*
 - **Estável**

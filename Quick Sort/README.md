@@ -50,8 +50,8 @@ void quickSort(int *V, int inicio, int final)
         quickSort(V, pivo + 1, final);
     }
 }
-
 ```
+Nesta implementação o pivô é o primeiro elemento da esquerda, no entanto há outras implementações que influenciam na escolha do pivô
 
 ## Desempenho
 - **Melhor caso:** *O(n log n)*

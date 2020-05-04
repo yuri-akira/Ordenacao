@@ -1,3 +1,6 @@
+| [funcionamento](https://github.com/yuri-akira/Ordenacao/tree/master/Bubble%20Sort#bubble-sort) | [implementação](https://github.com/yuri-akira/Ordenacao/tree/master/Bubble%20Sort#implementação-em-c) | [desempenho](https://github.com/yuri-akira/Ordenacao/tree/master/Bubble%20Sort#desempenho) |
+
+
 # Bubble Sort
 
 É um **algoritmo de ordenação** simples, cuja ideia se baseia em percorrer o vetor diversas vezes **comparando** os elementos **em pares** e a cada passagem faz o maior elemento "flutuar" para o topo do vetor ou  o menor valor "flutuar" para o inicio do vetor, dependendo da implementação.

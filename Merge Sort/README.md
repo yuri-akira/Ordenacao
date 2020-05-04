@@ -4,7 +4,7 @@
 
 ![](https://upload.wikimedia.org/wikipedia/commons/e/e6/Merge_sort_algorithm_diagram.svg)
 
-# Implementação em C
+## Implementação em C
 
 ```
 void mergeSort(int *vetor, int comeco, int fim)

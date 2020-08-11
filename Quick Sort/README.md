@@ -51,7 +51,8 @@ void quickSort(int *V, int inicio, int final)
     }
 }
 ```
-Nesta implementação o pivô é o primeiro elemento da esquerda, no entanto há outras implementações que influenciam na escolha do pivô
+Nesta implementação o pivô é o primeiro elemento da esquerda, no entanto há outras implementações que influenciam na escolha do pivô.
+Por exemplo,uma implementação com pivô mediana de três [aqui](https://github.com/yuri-akira/Ordenacao/blob/master/Quick%20Sort/quickSortPivoMD3.c)
 
 ## Desempenho
 - **Melhor caso:** *O(n log n)*

@@ -1,0 +1,71 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int left (int i) {
+  return 2 * i + 1;
+}
+
+int right (int i) {
+  return 2 * i + 2;
+}
+
+int parent (int i) {
+  return (i - 1) / 2;
+}
+
+int lastParent (int n) {
+  return (n / 2) - 1;
+}
+
+int hasLeftChild (int i, int n) {
+  return left(i) < n;
+}
+
+int hasRightChild (int i, int n) {
+  return right(i) < n;
+}
+
+int isLeaf (int i, int n) {
+  return left(i) >= n;
+}
+
+int maxHeapify (int * v, int n, int i) {
+  int l = left(i), r = right(i), max = i, comp = 1;
+  if (hasLeftChild(i, n) && v[l] > v[max])
+    max = l;
+  if (hasRightChild(i, n) && v[r] > v[max])
+    max = r;
+  if (max != i) {
+
+    int aux = v[i];
+    v[i] = v[max];
+    v[max] = aux;
+    comp += maxHeapify(v, n, max);
+  }
+
+  return comp;
+}
+
+int buildMaxHeap (int * v, int n) {
+  int lp = lastParent(n), comp = 0;
+  int i;
+  for (i = lp; i >= 0; i--)
+    comp += maxHeapify(v, n, i);
+
+  return comp;
+}
+
+int heapSort (int * v, int n) {
+  int comp = 0;
+  comp += buildMaxHeap(v, n);
+  int i;
+  for (i = n - 1; i > 0; i--) {
+    int aux = v[0];
+    v[0] = v[i];
+    v[i] = aux;
+
+    comp += maxHeapify(v, i, 0);
+  }
+
+  return comp;
+}

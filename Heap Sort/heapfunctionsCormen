@@ -1,3 +1,7 @@
+/*
+CÓDIGOS BASEADOS NO LIVRO ALGORITMOS-TEORIA E PRÁTICA DO CORMEN
+*/
+
 #include <stdio.h>
 #include <stdlib.h>
 

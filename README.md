@@ -49,7 +49,7 @@ Note que é estável pois 8[b] antecede 8[c], assim como em suas posições orig
  - [Couting Sort]()
  
  ### Algoritmos não estáveis:
- - [Heap Sort]()
+ - [Heap Sort](https://github.com/yuri-akira/Ordenacao/blob/master/Heap%20Sort/)
  - [Quick Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Quick%20Sort)
  - [Shell Sort]()
  - [Selection Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Selection%20Sort)

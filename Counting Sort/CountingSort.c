@@ -11,6 +11,6 @@ void countingSort(int *V, int N)
         baldes[V[i]]++;
 
     for(i = 0, j = 0;j < MAX; j++ )
-        for(k = baldes[j];k > 0; k++)
+        for(k = baldes[j];k > 0; k--)
             V[i++] = j;
 }

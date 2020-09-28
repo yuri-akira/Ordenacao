@@ -21,10 +21,10 @@ Os métodos eficientes requerem um número menor de comparações. São projetad
 Algoritmos de método eficiente:
 - [Merge Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Merge%20Sort)
 - [Quick Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Quick%20Sort)
-- [Couting Sort]()
+- [Couting Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Counting%20Sort)
 - [Heap Sort]()
 - [Shell Sort]()
-- [Redix Sort]()
+- [Radix Sort]()
 
 ## Ordenação estável
 Um algoritmo de ordenação é considerado estável se **preserva** a ordem de **registros** com **chaves iguais**. Ou seja, se existir dois elementos iguais em um vetor, a sequência a qual estarão quando ordenados será na mesma ordem em que estavam inicialmente.
@@ -46,7 +46,7 @@ Note que é estável pois 8[b] antecede 8[c], assim como em suas posições orig
  - [Bubble Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Bubble%20Sort)
  - [Insertion Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Insertion%20Sort)
  - [Merge Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Merge%20Sort)
- - [Couting Sort]()
+ - [Couting Sort](https://github.com/yuri-akira/Ordenacao/tree/master/Counting%20Sort)
  
  ### Algoritmos não estáveis:
  - [Heap Sort](https://github.com/yuri-akira/Ordenacao/blob/master/Heap%20Sort/)

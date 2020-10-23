@@ -14,7 +14,7 @@ Quick sort funciona localmente e seu tempo de execução no **pior caso** é tã
 >Porque o fator constante oculto na notação grande-Θ do quicksort é muito bom. Na prática, o **quicksort tem desempenho melhor que o merge sort.** - [Khan Academy](https://pt.khanacademy.org/computing/computer-science/algorithms/quick-sort/a/overview-of-quicksort)
 
 
-## Implementação em C
+## Implementação em C/C++
 ```
 int particiona(int *V, int inicio, int final)
 {

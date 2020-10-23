@@ -7,9 +7,9 @@
 
 ![](https://upload.wikimedia.org/wikipedia/commons/0/06/Bubble-sort.gif)
 
-## Implementação em C
+## Implementação em C/C++
 ```
-void bubble_sort(int *vetor, int TAM)
+void bubbleSort(int *vetor, int TAM)
 {
     int x, y, aux;
     for(x = 0; x < TAM; x++)
